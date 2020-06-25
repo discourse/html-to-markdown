@@ -1,6 +1,6 @@
 const toMarkdown = require("./index.js").default;
 
-QUnit.module("html_to_markdown");
+QUnit.module("html-to-markdown");
 
 QUnit.test("converts styles between normal words", (assert) => {
   const html = `Line with <s>styles</s> <b><i>between</i></b> words.`;

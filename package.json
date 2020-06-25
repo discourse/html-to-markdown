@@ -1,5 +1,5 @@
 {
-  "name": "html_to_markdown",
+  "name": "@discourse/html-to-markdown",
   "version": "1.0.0",
   "description": "HTML to Markdown converter by Discourse",
   "main": "index.js",
@@ -11,6 +11,7 @@
     "markdown"
   ],
   "author": "Discourse",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "devDependencies": {
     "node-qunit": "^1.0.0"
   },
