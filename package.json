@@ -11,7 +11,9 @@
     "markdown"
   ],
   "author": "Discourse",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "node-qunit": "^1.0.0"
   },
